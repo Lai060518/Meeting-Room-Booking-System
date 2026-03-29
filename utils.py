@@ -12,10 +12,9 @@ class DateUtils:
         #Expected format: 'YYYY-MM-DD HH:MM'
         #TODO:implement parsing with proper error handing
         try:
-            return
-datetime strptime(datetime_str, "%Y-%m-%d%H:%M")
-except ValueError as e:
-    raise ValueError(f"Invalid datetime format:{datetime_str}. Excepted 'YYYY-MM-DD HH:MM' ") from e
+            return datetime strptime(datetime_str, "%Y-%m-%d%H:%M")
+        except ValueError as e:
+            raise ValueError(f"Invalid datetime format:{datetime_str}. Excepted 'YYYY-MM-DD HH:MM' ") from e
     
     @staticmethod
     def generate_time_slots(date: datetime, start_hour: int = 9, end_hour: int = 18, slot_duration:int = 60) -> List[Tuple[datetime, datetime]]:
@@ -31,7 +30,7 @@ except ValueError as e:
             slot_end = current+timedelta(minutes=slot_duration)
             slots.append((current,slot_end))
             current = slot_end
-        return slots
+        return dt.strftime("%Y-%m-%d %H:%M")
     
     @staticmethod
     def format_datetime(dt: datetime) -> str:
