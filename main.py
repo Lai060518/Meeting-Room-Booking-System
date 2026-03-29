@@ -6,10 +6,10 @@ from tkinter import messagebox, simpledialog
 from typing import List, Optional
 
 # Import other modules (will be fully implemented later)
-from room import Room, SmallRoom, LargeRoom
+from room import MeetingRoom, SmallRoom, BigRoom
 from employee import Employee
 from booking import Booking
-from schedule import Schedule
+from schedule import Scheduler
 from utils import DateUtils
 
 
@@ -22,11 +22,11 @@ class BookingApp:
         self.root.geometry("900x700")
 
         # Core data objects (to be replaced with actual logic later)
-        self.schedule = Schedule()
+        self.schedule = Scheduler()
         self.current_user = Employee("E001", "Alice", "Engineering")
         self.rooms: List[Room] = [
             SmallRoom("R01", "Small Meeting A", 6),
-            LargeRoom("R02", "Large Conference B", 20, True),
+            BigRoom("R02", "Large Conference B", 20, True),
             SmallRoom("R03", "Small Meeting C", 4)
         ]
 
