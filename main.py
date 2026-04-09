@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox, ttk
 # Import existing modules
-from room import Room
+from room import MeetingRoom
 from employee import Employee
 from booking import BookingSystem
 from datetime import datetime
