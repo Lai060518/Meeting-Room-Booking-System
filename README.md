@@ -1,42 +1,47 @@
-🚀 Meeting Room Booking System (COMP2090SEF)
-An Intelligent, GUI-based Solution for Modern Workplace Scheduling.
+# 🚀 Meeting Room Booking System (COMP2090SEF/8090SEF)
 
-📌 Table of Contents
-1. Project Overview
-2. Core Features
-3. OOP Implementation
-4. Repository Structure
-5. Getting Started
-6. Demonstration
-7. Meet the Team
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-📖 1. Project Overview
-This repository hosts a robust Meeting Room Booking System designed to streamline resource allocation in corporate environments. Developed using Python and Tkinter, it provides a seamless user experience for managing reservations while maintaining data integrity through backend validation.
-✨ 2. Core Features
-📅 Dynamic Calendar Grid: Visualizes real-time room availability with distinct color indicators.
-🛡️ Conflict Guard: A high-precision interval-overlap algorithm ensures no room is double-booked.
-⚡ Real-time Sync: Instant UI updates when switching between different room categories (Small/Big).
-🖥️ Responsive GUI: An intuitive interface built on the Tkinter framework for rapid interaction.
+---
 
-🧱 3. OOP Implementation
-This project serves as a practical application of the four pillars of Object-Oriented Programming:Encapsulation: Private attributes (e.g., __room_id) secured via getter/setter methods.Inheritance: Specialized SmallRoom and BigRoom classes derived from a common MeetingRoom base.Polymorphism: Dynamic method overriding for room-specific feature display.Abstraction: Utilization of the abc module to define strict blueprints for room entities.
+## 📌 Table of Contents
+* [1. Project Overview](#1-project-overview)
+* [2. Core Features](#2-core-features)
+* [3. OOP Implementation](#3-oop-implementation)
+* [4. Repository Structure](#4-repository-structure)
+* [5. Getting Started](#5-getting-started)
 
-📂 4. Repository Structure
-Plaintext
-├── main.py        # System Entry Point & GUI Controller
-├── schedule.py    # Logic Engine & Conflict Detection
-├── room.py        # OOP Hierarchy & Entity Definitions
-├── booking.py     # Reservation Data Model
-├── employee.py    # User Entity Class
-├── utils.py       # Date Parsing & Time-Slot Utilities
-└── assets/        # System Icons and Documentation Images
+---
 
-🚀 5. Getting StartedTo get the system running locally:Bash# Clone the repository
-git clone https://github.com/Lai060518/Meeting-Room-Booking-System.git
+## 📖 1. Project Overview
+This repository hosts a **Meeting Room Booking System** designed to streamline resource allocation. Developed using Python and Tkinter, it provides a seamless user experience while maintaining data integrity.
 
-# Navigate to the project folder
-cd Meeting-Room-Booking-System
+## ✨ 2. Core Features
+* **📅 Dynamic Calendar Grid**: Visualizes real-time room availability.
+* **🛡️ Conflict Guard**: Algorithm ensures no room is double-booked.
+* **⚡ Real-time Sync**: Instant UI updates between categories.
+
+## 🧱 3. OOP Implementation
+* **Encapsulation**: Private attributes (e.g., `__room_id`).
+* **Inheritance**: Specialized rooms derived from `MeetingRoom`.
+* **Polymorphism**: Overriding `display_info()` for room-specific features.
+* **Abstraction**: Using `abc` module for strict blueprints.
+
+## 📂 4. Repository Structure
+```text
+├── main.py        # System Entry Point
+├── schedule.py    # Logic Engine
+├── room.py        # OOP Hierarchy
+├── booking.py     # Data Model
+├── employee.py    # User Entity
+└── utils.py       # Time-Slot Utilities
+🚀 5. Getting Started
+To get the system running locally:
+
+Bash
+# Clone the repository
+git clone [https://github.com/Lai060518/Meeting-Room-Booking-System.git](https://github.com/Lai060518/Meeting-Room-Booking-System.git)
 
 # Run the application
 python main.py
-📺 6. DemonstrationProduct Demo: Watch the 5-Minute Intro Video HereFull Report: Access the detailed Technical Report PDF for comprehensive test cases.👥 7. Meet the TeamNameSIDKey ContributionsLI Zhuohao13619319room.py, employee.py, Logic DesignWU Zijun13747250booking.py, schedule.py, Video ProductionLAI Suchang13768558main.py, utils.py, Project Coordination
