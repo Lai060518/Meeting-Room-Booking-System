@@ -1,53 +1,16 @@
-Meeting Room Booking System (COMP2090SEF)
-1. Project Overview
-This is a Python-based Meeting Room Booking System developed for the HKMU Course Project. The system provides a graphical user interface (GUI) to help organizations manage room schedules, avoid booking conflicts, and improve resource transparency.
-
-2. Key Features
-Interactive Calendar Grid: Real-time visualization of room availability using color-coded slots (Green for available, Red for booked).
-
-Conflict Detection: A backend algorithm (_check_conflict) that prevents double-booking by verifying time interval overlaps.
-
-OOP-Driven Architecture: Fully utilizes Object-Oriented Programming concepts including Encapsulation, Inheritance, Polymorphism, and Abstraction.
-
-Dynamic Information Display: Specialized room details (e.g., projector availability) are displayed based on the selected room type.
-
-3. Project Structure
-The project follows a modular programming approach:
-
-main.py: The entry point and GUI management using Tkinter.
-
-room.py: Defines the MeetingRoom abstract base class and its subclasses (SmallRoom, BigRoom).
-
-schedule.py: Contains the Scheduler class for booking logic and conflict checks.
-
-booking.py: Defines the Booking data model.
-
-employee.py: Defines the Employee entity.
-
-utils.py: Provides DateUtils for date parsing and automated time slot generation.
-
-4. How to Run
-Ensure you have Python 3.x installed.
-
-Clone this repository:
-
-Bash
+🚀 Meeting Room Booking System (COMP2090SEF/8090SEF)An Intelligent, GUI-based Solution for Modern Workplace Scheduling.📌 Table of Contents1. Project Overview2. Core Features3. OOP Implementation4. Repository Structure5. Getting Started6. Demonstration7. Meet the Team📖 1. Project OverviewThis repository hosts a robust Meeting Room Booking System designed to streamline resource allocation in corporate environments. Developed using Python and Tkinter, it provides a seamless user experience for managing reservations while maintaining data integrity through backend validation.✨ 2. Core Features📅 Dynamic Calendar Grid: Visualizes real-time room availability with distinct color indicators.🛡️ Conflict Guard: A high-precision interval-overlap algorithm ensures no room is double-booked.⚡ Real-time Sync: Instant UI updates when switching between different room categories (Small/Big).🖥️ Responsive GUI: An intuitive interface built on the Tkinter framework for rapid interaction.🧱 3. OOP ImplementationThis project serves as a practical application of the four pillars of Object-Oriented Programming:Encapsulation: Private attributes (e.g., __room_id) secured via getter/setter methods.Inheritance: Specialized SmallRoom and BigRoom classes derived from a common MeetingRoom base.Polymorphism: Dynamic method overriding for room-specific feature display.Abstraction: Utilization of the abc module to define strict blueprints for room entities.📂 4. Repository StructurePlaintext├── main.py        # System Entry Point & GUI Controller
+├── schedule.py    # Logic Engine & Conflict Detection
+├── room.py        # OOP Hierarchy & Entity Definitions
+├── booking.py     # Reservation Data Model
+├── employee.py    # User Entity Class
+├── utils.py       # Date Parsing & Time-Slot Utilities
+└── assets/        # System Icons and Documentation Images
+🚀 5. Getting StartedTo get the system running locally:Bash# Clone the repository
 git clone https://github.com/Lai060518/Meeting-Room-Booking-System.git
-Run the application:
 
-Bash
+# Navigate to the project folder
+cd Meeting-Room-Booking-System
+
+# Run the application
 python main.py
-5. Demonstration
-Introductory Video: [Insert Your 5-Minute Video Link Here]
-
-Screenshots: Please refer to the Appendix in the Project Report for detailed UI demonstrations.
-
-6. Contributors
-LI Zhuohao (SID: 13619319) - Development of room.py & employee.py.
-
-WU Zijun (SID: 13747250) - Video shooter, development of booking.py & schedule.py.
-
-LAI Suchang (SID: 13768558) - Project Coordinator, development of main.py & utils.py.
-
-7. License & Declaration
-This project is submitted for academic purposes at Hong Kong Metropolitan University (HKMU). We declare that this work is original and complies with the university's policy on academic honesty.
+📺 6. DemonstrationProduct Demo: Watch the 5-Minute Intro Video HereFull Report: Access the detailed Technical Report PDF for comprehensive test cases.👥 7. Meet the TeamNameSIDKey ContributionsLI Zhuohao13619319room.py, employee.py, Logic DesignWU Zijun13747250booking.py, schedule.py, Video ProductionLAI Suchang13768558main.py, utils.py, Project Coordination
