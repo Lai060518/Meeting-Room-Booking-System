@@ -37,7 +37,7 @@ This repository hosts a **Meeting Room Booking System** designed to streamline r
 ├── employee.py    # User Entity
 └── utils.py       # Time-Slot Utilities
 
-##🚀 5. Getting Started
+## 🚀 5. Getting Started
 To get the system running locally:
 
 Bash
