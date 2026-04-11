@@ -37,10 +37,12 @@ This repository hosts a **Meeting Room Booking System** designed to streamline r
 ├── employee.py    # User Entity
 └── utils.py       # Time-Slot Utilities
 
+Markdown
 ## 🚀 5. Getting Started
+
 To get the system running locally:
 
-Bash
+```bash
 # Clone the repository
 git clone [https://github.com/Lai060518/Meeting-Room-Booking-System.git](https://github.com/Lai060518/Meeting-Room-Booking-System.git)
 
