@@ -22,12 +22,7 @@ This repository hosts a robust Meeting Room Booking System designed to streamlin
 This project serves as a practical application of the four pillars of Object-Oriented Programming:Encapsulation: Private attributes (e.g., __room_id) secured via getter/setter methods.Inheritance: Specialized SmallRoom and BigRoom classes derived from a common MeetingRoom base.Polymorphism: Dynamic method overriding for room-specific feature display.Abstraction: Utilization of the abc module to define strict blueprints for room entities.
 
 📂 4. Repository StructurePlaintext├── main.py        # System Entry Point & GUI Controller
-├── schedule.py    # Logic Engine & Conflict Detection
-├── room.py        # OOP Hierarchy & Entity Definitions
-├── booking.py     # Reservation Data Model
-├── employee.py    # User Entity Class
-├── utils.py       # Date Parsing & Time-Slot Utilities
-└── assets/        # System Icons and Documentation Images
+├── schedule.py    # Logic Engine & Conflict Detection├── room.py        # OOP Hierarchy & Entity Definitions├── booking.py     # Reservation Data Model├── employee.py    # User Entity Class├── utils.py       # Date Parsing & Time-Slot Utilities└── assets/        # System Icons and Documentation Images
 
 🚀 5. Getting StartedTo get the system running locally:Bash# Clone the repository
 git clone https://github.com/Lai060518/Meeting-Room-Booking-System.git
