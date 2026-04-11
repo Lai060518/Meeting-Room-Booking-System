@@ -53,3 +53,4 @@ python main.py
 
 ## 📺 6. Demonstration
 * []
+* **Technical Report**: [Looking Full Report PDF](./Meeting_Room_Booking_System_Report.pdf)
