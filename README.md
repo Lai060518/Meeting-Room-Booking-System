@@ -11,6 +11,7 @@
 * [3. OOP Implementation](#3-oop-implementation)
 * [4. Repository Structure](#4-repository-structure)
 * [5. Getting Started](#5-getting-started)
+* [6. Demonstration](#5-demonstration)
 
 ---
 
@@ -48,3 +49,7 @@ git clone [https://github.com/Lai060518/Meeting-Room-Booking-System.git](https:/
 
 # Run the application
 python main.py
+```
+
+## 📺 6. Demonstration
+* []
