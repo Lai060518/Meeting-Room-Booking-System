@@ -1,4 +1,4 @@
-# 🚀 Meeting Room Booking System (COMP2090SEF/8090SEF)
+# 🚀 Meeting Room Booking System & Algorithm Study (COMP2090SEF/8090SEF)
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -7,50 +7,55 @@
 
 ## 📌 Table of Contents
 * [1. Project Overview](#1-project-overview)
-* [2. Core Features](#2-core-features)
-* [3. OOP Implementation](#3-oop-implementation)
+* [2. Task 1: OOP Booking System](#2-task-1-oop-booking-system)
+* [3. Task 2: Self-study (Data Structures & Algorithms)](#3-task-2-self-study-data-structures--algorithms)
 * [4. Repository Structure](#4-repository-structure)
 * [5. Getting Started](#5-getting-started)
-* [6. Demonstration](#5-demonstration)
+* [6. Demonstration (Video Links)](#6-demonstration)
 
 ---
 
 ## 📖 1. Project Overview
-This repository hosts a **Meeting Room Booking System** designed to streamline resource allocation. Developed using Python and Tkinter, it provides a seamless user experience while maintaining data integrity.
+This repository contains two major components for the COMP2090SEF course project:
+1. **Task 1**: A functional **Meeting Room Booking System** built with Python/Tkinter, focusing on OOP principles.
+2. **Task 2**: A research-based implementation of a **New Data Structure & Algorithm** (Self-study component).
 
-## ✨ 2. Core Features
-* **📅 Dynamic Calendar Grid**: Visualizes real-time room availability.
-* **🛡️ Conflict Guard**: Algorithm ensures no room is double-booked.
-* **⚡ Real-time Sync**: Instant UI updates between categories.
+---
 
-## 🧱 3. OOP Implementation
-* **Encapsulation**: Private attributes (e.g., `__room_id`).
-* **Inheritance**: Specialized rooms derived from `MeetingRoom`.
-* **Polymorphism**: Overriding `display_info()` for room-specific features.
-* **Abstraction**: Using `abc` module for strict blueprints.
+## ✨ 2. Task 1: OOP Booking System
+* **📅 Dynamic Calendar**: Real-time visualization of room availability.
+* **🛡️ Conflict Guard**: Robust logic to prevent double-booking.
+* **🧩 OOP Pillars**: 
+  - **Encapsulation**: Private state management.
+  - **Inheritance**: Room hierarchy (Specialized vs Basic).
+  - **Polymorphism**: Unified interface for different room types.
+  - **Abstraction**: Abstract Base Classes (ABC) for data models.
+
+---
+
+## 🔬 3. Task 2: Self-study (DS & Algorithms)
+This part demonstrates the implementation and complexity analysis of:
+* **Data Structure**: [在此填入你自学的数据结构名称，如 MongoDB-based Graph/Tree]
+* **Algorithm**: [在此填入你自学的算法名称，如 Sentiment Analysis Algorithm/Search]
+* **Scope**: Focuses on efficiency, ADT definition, and practical application.
+
+---
 
 ## 📂 4. Repository Structure
 ```text
-├── main.py        # System Entry Point
-├── schedule.py    # Logic Engine
-├── room.py        # OOP Hierarchy
-├── booking.py     # Data Model
-├── employee.py    # User Entity
-└── utils.py       # Time-Slot Utilities
-```
-
-## 🚀 5. Getting Started
-
-To get the system running locally:
-
-```bash
-# Clone the repository
-git clone [https://github.com/Lai060518/Meeting-Room-Booking-System.git](https://github.com/Lai060518/Meeting-Room-Booking-System.git)
-
-# Run the application
-python main.py
-```
-
-## 📺 6. Demonstration
-* Task1 [https://github.com/Lai060518/Meeting-Room-Booking-System/releases/download/task1/task1_demo.mp4]
-* Task2 [https://github.com/Lai060518/Meeting-Room-Booking-System/releases/download/v1.0/task2_demo.mp4]
+├── / (Root)
+│   ├── main.py          # Task 1: Entry Point
+│   ├── schedule.py      # Task 1: Logic Engine
+│   ├── room.py          # Task 1: OOP Hierarchy
+│   ├── booking.py       # Task 1: Data Model
+│   ├── utils.py         # Task 1: User Entity
+│   ├── employee.py      # Task 1: Time-Slot Utilities
+│   └──
+└── /task2_research/     # Task 2: Self-study Materials
+    ├── algorithm_core.py # Task 2: Algorithm Implementation
+    ├── data_structure.py # Task 2: DS Definition
+    └── user_guide.txt    # Task 2: Running Instructions
+🚀 5. Getting StartedTask 1 (Booking App)Bashpython main.py
+Task 2 (Algorithm Demo)Bashcd task2_research
+python algorithm_core.py
+📺 6. DemonstrationNote: For the best experience, right-click the links below and select "Open in Browser".ComponentVideo Demo (Direct Download)Online Stream (Backup)Task 1: App📥 Download MP4🎬 Watch OnlineTask 2: Study📥 Download MP4🎬 Watch Online
