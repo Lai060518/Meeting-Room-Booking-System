@@ -52,16 +52,16 @@ Based on the research report, this task implements:
 └── heap_sort.py         # Task 2: Heap & Heap Sort Implementation
 
 ---
-
-##🚀 5. Getting Started & User Guide
-###🛠️ 5a. Task 1: Meeting Room Booking System
+```
+## 🚀 5. Getting Started & User Guide
+### 🛠️ 5a. Task 1: Meeting Room Booking System
 Run: Execute python main.py.
 
 Interact: Select a room from the list. Notice the polymorphic display of "Projector" (SmallRoom) vs "Video System" (BigRoom).
 
 Book: Click a green "Book" button. The system creates a Booking instance and updates the GUI via refresh_calendar().
 
-###🛠️ 5b. Task 2: Heap Sort Demonstration
+### 🛠️ 5b. Task 2: Heap Sort Demonstration
 Run: Execute python heap_sort.py.
 
 Process:
@@ -71,7 +71,7 @@ The script initializes an unsorted array: [4, 10, 3, 5, 1].
 It builds a Max-Heap and then performs sorting.
 
 Result: Check the console output to see the step-by-step transformation to a sorted array.
-```
+
 ## 📺 6. Demonstration:
 * Task1 [https://github.com/Lai060518/Meeting-Room-Booking-System/releases/download/task1/task1_demo.mp4]
 * Task2 [https://github.com/Lai060518/Meeting-Room-Booking-System/releases/download/v1.0/task2_demo.mp4]
