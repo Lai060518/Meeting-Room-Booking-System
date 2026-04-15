@@ -84,6 +84,7 @@ The script will fetch data using the implemented algorithm.
 
 Observe the console for complexity analysis and data structure performance.
 
+---
 
 ## 📺 6. Demonstration:
 * Task1 [https://github.com/Lai060518/Meeting-Room-Booking-System/releases/download/task1/task1_demo.mp4]
