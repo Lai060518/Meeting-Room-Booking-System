@@ -52,4 +52,4 @@ python main.py
 ```
 
 ## 📺 6. Demonstration
-* Task2 [sha256:25c3c225753365f6962f775f453754c2f1a793e51f54bdf52d8ffd03eda6d7aa]
+* Task2 [https://github.com/Lai060518/Meeting-Room-Booking-System/releases/download/v1.0/task2_demo.mp4]
