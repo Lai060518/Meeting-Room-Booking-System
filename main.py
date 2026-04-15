@@ -23,6 +23,8 @@ class BookingApp:
         self.schedule = Scheduler()
         self.current_user = Employee("E001", "Alice", "Engineering")
 
+        self.current_view_date = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+
         # Rooms (use correct class names)
         self.rooms: List[MeetingRoom] = [
             SmallRoom("R01", "Small Meeting A", 6),
@@ -224,6 +226,7 @@ class BookingApp:
 
             # Add to scheduler
             if self.schedule.add_booking(new_booking):
+                self.current_view_date = start_datetime.replace(hour=0, minute=0, second=0, microsecond=0)
                 dialog.destroy()
                 self.refresh_calendar()
             else:
@@ -262,14 +265,14 @@ class BookingApp:
             self.calendar_title.config(text="No room selected")
             return
 
-        self.calendar_title.config(text=f"Availability for {self.selected_room.get_name()}")
+        view_date_str = self.current_view_date.strftime("%Y-%m-%d")
+        self.calendar_title.config(text=f"Availability for {self.selected_room.get_name()} on {view_date_str}")
+        
         # Clear inner frame
         for widget in self.calendar_inner.winfo_children():
             widget.destroy()
 
-        # Get today's date (or use current date, we can later add date selector)
-        today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-        slots = DateUtils.generate_time_slots(today)
+        slots = DateUtils.generate_time_slots(self.current_view_date)
 
         # Get bookings for this room
         room_bookings = self.schedule.query_bookings_by_room(self.selected_room)
@@ -328,6 +331,7 @@ class BookingApp:
             return
         new_booking = Booking(self.current_user, self.selected_room, start, end)
         if self.schedule.add_booking(new_booking):
+            self.current_view_date = start.replace(hour=0, minute=0, second=0, microsecond=0)
             self.refresh_calendar()
         else:
             messagebox.showerror("Booking Failed", "This slot is no longer available.")
