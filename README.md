@@ -43,19 +43,20 @@ This part demonstrates the implementation and complexity analysis of:
 
 ## 📂 4. Repository Structure
 ```text
-├── main.py              # Task 1: System Entry Point
-├── schedule.py          # Task 1: Logic Engine
-├── room.py              # Task 1: OOP Hierarchy
-├── booking.py           # Task 1: Data Model
-├── employee.py          # Task 1: User Entity
-├── utils.py             # Task 1: Utilities
-└── /task2_research/     # Task 2: Self-study Research Files
-    ├── algorithm_core.py # Task 2: Main Logic
-    ├── data_model.py     # Task 2: Data Structure
-    └── user_guide.txt    # Task 2: Technical Instructions
+     /task1_research/        # Task 1: Meetig Room Booking System
+    ├──main.py               # Task 1: System Entry Point
+    ├── schedule.py          # Task 1: Logic Engine
+    ├── room.py              # Task 1: OOP Hierarchy
+    ├── booking.py           # Task 1: Data Model
+    ├── employee.py          # Task 1: User Entity
+    ├── utils.py             # Task 1: Utilities
+     /task2_research/        # Task 2: Self-study Research Files
+    ├── algorithm_core.py    # Task 2: Main Logic
+    ├── data_model.py        # Task 2: Data Structure
+    └── user_guide.txt       # Task 2: Technical Instructions
 ```
 ## 🚀 5. Getting Started & User Guide
-## 🛠️ 5a. Task 1 (Booking App)
+## 🛠️ 5a. Task 1 (Booking System)
 How to run:
 
 Bash
