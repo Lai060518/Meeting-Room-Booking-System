@@ -1,4 +1,4 @@
-# main.py
+# Task1_Booking_System/
 import tkinter as tk
 from tkinter import messagebox, simpledialog, ttk
 from datetime import datetime
