@@ -72,6 +72,8 @@ It builds a Max-Heap and then performs sorting.
 
 Result: Check the console output to see the step-by-step transformation to a sorted array.
 
+---
+
 ## 📺 6. Demonstration:
 * Task1 [https://github.com/Lai060518/Meeting-Room-Booking-System/releases/download/task1/task1_demo.mp4]
 * Task2 [https://github.com/Lai060518/Meeting-Room-Booking-System/releases/download/v1.0/task2_demo.mp4]
