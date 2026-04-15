@@ -52,4 +52,5 @@ python main.py
 ```
 
 ## 📺 6. Demonstration
+* Task1 [https://github.com/Lai060518/Meeting-Room-Booking-System/releases/download/task1/task1_demo.mp4]
 * Task2 [https://github.com/Lai060518/Meeting-Room-Booking-System/releases/download/v1.0/task2_demo.mp4]
