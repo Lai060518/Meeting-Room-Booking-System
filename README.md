@@ -55,8 +55,8 @@ This part demonstrates the implementation and complexity analysis of:
     ├── data_model.py        # Task 2: Data Structure
     └── user_guide.txt       # Task 2: Technical Instructions
 ```
-## 🚀 5. Getting Started & User Guide
-# 🛠️ 5a. Task 1 (Booking System)
+# 🚀 5. Getting Started & User Guide
+## 🛠️ 5a. Task 1 (Booking System)
 How to run:
 
 Bash
@@ -71,7 +71,7 @@ Book: Click 'Book', input the time slot. The Conflict Guard will validate the re
 
 Refresh: Use the Refresh button to sync data if updates are not shown.
 
-# 🛠️ 5b. Task 2 (Self-study Demo)
+## 🛠️ 5b. Task 2 (Self-study Demo)
 How to run:
 
 Bash
