@@ -10,7 +10,7 @@
 * [2. Task 1: OOP Booking System](#2-task-1-oop-booking-system)
 * [3. Task 2: Self-study (Data Structures & Algorithms)](#3-task-2-self-study-data-structures--algorithms)
 * [4. Repository Structure](#4-repository-structure)
-* [5. Getting Started & User Guide](#5-getting-started--user-guide)
+* [5. Getting Started & User Guide](#5-getting-started-user-guide)
 * [6. Demonstration (Video Links)](#6-demonstration)
 
 ---
@@ -55,35 +55,21 @@ This part demonstrates the implementation and complexity analysis of:
     ├── data_model.py        # Task 2: Data Structure
     └── user_guide.txt       # Task 2: Technical Instructions
 ```
-# 🚀 5. Getting Started & User Guide
-## 🛠️ 5a. Task 1 (Booking System)
-How to run:
+## 🚀 5. Getting Started & 📖 . User Guide
 
-Bash
-python main.py
-User Guide:
+### 5a. Task 1: Meeting Room Booking System
+1. **Initialize**: Run `python main.py` to start the GUI.
+2. **Room Selection**: Select a room from the sidebar. Note the polymorphic display of room details (e.g., Projector/Video System status).
+3. **Check Availability**: The grid displays slots from 09:00 to 18:00. Green slots are free.
+4. **Make a Booking**: Click "Book" on any green slot. The `Scheduler` will run a conflict check against `self.bookings`.
+5. **Real-time Update**: The UI refreshes instantly upon a successful booking via `refresh_calendar()`.
 
-Login: Register or log in with your Employee ID.
-
-View: Select a room from the sidebar to view its current schedule.
-
-Book: Click 'Book', input the time slot. The Conflict Guard will validate the request.
-
-Refresh: Use the Refresh button to sync data if updates are not shown.
-
-## 🛠️ 5b. Task 2 (Self-study Demo)
-How to run:
-
-Bash
-cd task2_research
-pip install -r requirements.txt  # If any
-python algorithm_core.py
-User Guide:
-
-The script will fetch data using the implemented algorithm.
-
-Observe the console for complexity analysis and data structure performance.
-
+### 5b. Task 2: Heap Sort Study
+1. **Run Demo**: Execute `python heap_sort.py`.
+2. **Algorithm Execution**: 
+   - The script builds a **Max-Heap** from a sample array.
+   - It performs **Heap Sort** by repeatedly extracting the maximum element.
+3. **Verify Output**: Check the console for the sorted array output to verify the $O(n \log n)$ complexity performance.
 ---
 
 ## 📺 6. Demonstration:
